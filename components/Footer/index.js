@@ -20,7 +20,7 @@ export default function Footer() {
           <Link href="#quem_somos">Quem somos</Link>
           <Link href="#topo">Topo</Link>
           <Link
-            href="https://drive.google.com/file/d/1UGTvz0nhvkjckjSoyQ7DjPr_UkmHO7tg/view?usp=sharing"
+            href="/downloads"
             className={styles.btn_contrato}
           >
             Baixar contrato

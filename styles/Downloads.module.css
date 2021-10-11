@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #ddd;
+}
+
+.content {
+  width: 80%;
+  min-height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.helper {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#helperlink {
+  color: dimgrey;
+  margin: auto 2px;
+}
+
+.containerlinks {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divlist {
+  background-color: rgba(105, 105, 105, 0.137);
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.divlist a {
+  color: blue;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    width: 98%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

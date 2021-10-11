@@ -1,0 +1,255 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+/* HEADER */
+
+.container_header {
+  width: 100%;
+}
+
+.header {
+  width: 80%;
+  min-height: 100px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #23a8dc;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  transition: all 0.4s;
+  /*position: fixed;*/
+  left: 50%;
+  /*transform: translate(-50%, 0);*/
+}
+
+/* MOBILE_MENU */
+
+.header_mobile {
+  width: 100%;
+  min-height: 100px;
+  padding: 0 5px 0 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #23a8dc;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  transition: all 0.4s;
+  /* position: fixed; */
+}
+
+.btn_menu {
+  background-color: #fc852b;
+  color: #fff;
+  min-width: 60px;
+  border-radius: 3px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.btn_menu img {
+  margin-top: 8px;
+  max-width: 40px;
+}
+
+.menu_mobile {
+  width: 100%;
+  min-height: 100vh;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.4s;
+  background: rgb(57, 184, 232);
+  background: linear-gradient(
+    0deg,
+    rgba(57, 184, 232, 1) 0%,
+    rgba(0, 146, 228, 1) 87%
+  );
+  position: fixed;
+  animation: changeWidthMenu 0.5s;
+  z-index: 2;
+}
+
+.menu_mobile hr {
+  width: 80%;
+  height: 2px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #fc852b;
+  transition: 0.5s;
+}
+
+.header_menu {
+  width: 100%;
+  min-height: 100px;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.header_menu img {
+  width: 100px;
+  transition: 0.5s;
+}
+
+.body_menu {
+  width: 100%;
+  min-height: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 1.3em;
+  font-weight: 300;
+  transition: 0.5s;
+}
+
+.body_menu a {
+  margin: 10px 0px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header_mobile {
+    display: none;
+  }
+}
+
+/* END MOBILE_MENU */
+.left_header {
+  width: 30%;
+}
+
+.left_header img {
+  width: 150px;
+}
+
+.rigth_header {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.area_do_cliente_btn {
+  background-color: #fc852b;
+  min-width: 200px;
+  padding: 2px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.sem_internet_paragraph {
+  color: #fff;
+  font-weight: 600;
+}
+
+.abrir_chamado_div {
+  background-color: #fc852b;
+  min-width: 200px;
+  padding: 2px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.rigth_header a:hover {
+  color: #ddd;
+}
+
+/* DROPDOWN-MENU */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  color: #1190d5;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  min-height: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown p:hover {
+  color: #ddd;
+  cursor: pointer;
+}
+
+.dropdown_content a:hover {
+  color: #1190d5d5;
+}
+
+.dropdown:hover .dropdown_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* MEDIA QUERYES */
+
+@media screen and (max-width: 1300px) {
+  .left {
+    width: 50%;
+  }
+
+  .rigth {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sides {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .rigth {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .btn_whatsapp {
+    width: 90%;
+  }
+
+  .left_header {
+    width: 50%;
+  }
+}

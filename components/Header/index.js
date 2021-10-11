@@ -75,6 +75,7 @@ export default function Header() {
             <Link href="#planos">Nossos Planos</Link>
             <Link href="#onde">Onde Atendemos</Link>
             <Link href="#quem_somos">Quem Somos</Link>
+            <Link href="/downloads">Downloads</Link>
 
             <div className={styles.dropdown}>
               <p className={styles.dropdown_btn}>Está Sem Internet?</p>
@@ -133,6 +134,9 @@ export default function Header() {
               </a>
               <a href="#quem_somos" onClick={() => setShowMenuMobile(false)}>
                 Quem Somos
+              </a>
+              <a href="/downloads" onClick={() => setShowMenuMobile(false)}>
+                Downloads
               </a>
               <p className={styles.area_do_cliente_btn}>
                 <Link href="https://portal.interativabr.com.br/facilita">
