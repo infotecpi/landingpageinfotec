@@ -51,9 +51,9 @@ export default function HeaderSimples() {
               </div>
             </div>
             <p className={styles.area_do_cliente_btn}>
-              <Link href='https://portal.interativabr.com.br/facilita'>
+              <a href='https://ixc.infotecpi.com.br/central_assinante_web/login' target="_blanck">
                 Área do Cliente
-              </Link>
+              </a>
             </p>
           </div>
         </header>
@@ -104,9 +104,9 @@ export default function HeaderSimples() {
                 Downloads
               </a>
               <p className={styles.area_do_cliente_btn}>
-                <Link href='https://portal.interativabr.com.br/facilita'>
+                <a href='https://ixc.infotecpi.com.br/central_assinante_web/login' target="_blanck">
                   Área do Cliente
-                </Link>
+                </a>
               </p>
 
               <hr />
