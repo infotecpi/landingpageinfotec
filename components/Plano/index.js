@@ -4,33 +4,31 @@ import styles from '../../styles/Planos.module.css'
 export default function Plano() {
   const [planos] = useState([
     {
-      nome: '50Mb',
+      nome: '60Mb',
+      up: '50Mb',
       valor: 'R$ 89,99',
       tipo: 'Exclusivo Fibra Óptica',
       frase: 'Garantimos à você a melhor experiência',
     },
     {
-      nome: '80Mb',
+      nome: '100Mb',
+      up: '80Mb',
       valor: 'R$ 99,99',
       tipo: 'Exclusivo Fibra Óptica',
       frase: 'Garantimos à você a melhor experiência',
     },
     {
       nome: '200Mb',
+      up: '180Mb',
       valor: 'R$ 149,99',
       tipo: 'Exclusivo Fibra Óptica',
       frase: 'Garantimos à você a melhor experiência',
     },
     {
-      nome: '10Mb',
-      valor: 'R$ 90,00',
-      tipo: 'Rádio - Zona Rural',
-      frase: 'Garantimos à você a melhor experiência',
-    },
-    {
-      nome: '15Mb',
+      nome: '30Mb',
+      up: '20Mb',
       valor: 'R$ 100,00',
-      tipo: 'Rádio - Zona Rural',
+      tipo: 'Rádio - Zona Rural*',
       frase: 'Garantimos à você a melhor experiência',
     },
   ])
@@ -40,7 +38,7 @@ export default function Plano() {
   }
 
   return (
-    <div className={styles.planos_container} id="planos">
+    <div className={styles.planos_container} id='planos'>
       {/* CABEÇALHO */}
       <div className={styles.cabecalho}>
         <h1>Conheça Nossos Planos</h1>
@@ -52,10 +50,14 @@ export default function Plano() {
 
       {/* PLANOS */}
       <div className={styles.planos}>
-        {planos.map((item) => (
+        {planos.map((item, _) => (
           <div className={styles.paper} key={item.nome}>
             <h4 className={styles.paper_planeName}>
-              A melhor internet fibra óptica da região
+              {_ === 3 ? (
+                <>A melhor internet a rádio da região</>
+              ) : (
+                <>A melhor internet fibra óptica da região</>
+              )}
             </h4>
             <h1 className={styles.velocity}>{item.nome}</h1>
             <hr />
@@ -69,7 +71,7 @@ export default function Plano() {
             </div>
 
             <div className={styles.body_info}>
-              <p>Upload de {item.nome}</p>
+              <p>Upload de {item.up}</p>
             </div>
 
             <div className={styles.body_info}>
