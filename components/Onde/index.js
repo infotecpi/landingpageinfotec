@@ -11,7 +11,7 @@ export default function Onde() {
         </div>
         <div className={styles.localidades}>
           <h3>
-            A Info-tec leva internet de qualidade para as seguintes localidades
+            A INFO-TEC leva internet de qualidade para as seguintes localidades
           </h3>
 
           <ul>

@@ -43,8 +43,7 @@ export default function Plano() {
       <div className={styles.cabecalho}>
         <h1>Conheça Nossos Planos</h1>
         <h2>
-          Adesão de R$240,00 à vista para a zona urbana e R$380,00 à vista para
-          a zona rural
+          Adesão de R$240,00 à vista ou parcelado.
         </h2>
       </div>
 
