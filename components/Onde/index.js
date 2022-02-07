@@ -16,7 +16,7 @@ export default function Onde() {
 
           <ul>
             <li>
-              Francisco Ayres
+              <b> Francisco Ayres</b>
               <ul>
                 <li>Tocuns - Zona Rural</li>
                 <li>Prata - Zona Rural</li>
@@ -32,7 +32,9 @@ export default function Onde() {
                 <li>Estrelinha - Zona Rural</li>
               </ul>
             </li>
-            <li>Arraial</li>
+            <li>
+              <b>Arraial</b>
+            </li>
           </ul>
         </div>
       </div>
