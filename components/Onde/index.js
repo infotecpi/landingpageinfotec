@@ -19,11 +19,8 @@ export default function Onde() {
               <b> Francisco Ayres</b>
               <ul>
                 <li>Tocuns - Zona Rural</li>
-                <li>Prata - Zona Rural</li>
-                <li>Gaivotas - Zona Rural</li>
                 <li>Vereda - Zona Rural</li>
                 <li>Sacos dos Mel - Zona Rural</li>
-                <li>Novo Estado - Zona Rural</li>
                 <li>Limoeiro - Zona Rural</li>
                 <li>Monte Santo - Zona Rural</li>
                 <li>Campo de Bola - Zona Rural</li>
