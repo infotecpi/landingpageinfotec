@@ -12,6 +12,7 @@ export default function Footer() {
   return (
     <div className={styles.container}>
       <h3 className={styles.frase}>
+        R A Cavalcante Provedor de Internet <br />
         CNPJ: 29.470.487/0001-58 <br />
         ATO DE AUTORIZAÇÃO - ANATEL 7679 de 13 de dezembro de 2020
       </h3>
