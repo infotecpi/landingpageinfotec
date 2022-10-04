@@ -39,11 +39,11 @@ export default function Footer() {
         <div className={styles.contato}>
           <h3>Formas de contato</h3>
           <p onClick={() => sendWhatsappMessage()}>
-            Nos mande uma mensagem pelo whatsapp: 89994578337
+            Nos mande uma mensagem pelo whatsapp: (89) 994578337
           </p>
 
-          <a href='tel:08000420497'>
-            Nos ligue em nosso 0800, é gratuito :) 08000420497
+          <a href='tel:8631421751'>
+            Você também pode entrar em contato pelo número: (86) 31421751
           </a>
 
           <p>
