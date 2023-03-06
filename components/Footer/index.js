@@ -54,7 +54,7 @@ export default function Footer() {
           </p>
         </div>
       </div>
-      <small>&copy; Todos os direitos reservados a INFO-TEC - 2021</small>
+      <small>&copy; Todos os direitos reservados a INFO-TEC - {new Date().getFullYear()}</small>
     </div>
   )
 }

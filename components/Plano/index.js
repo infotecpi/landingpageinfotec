@@ -4,22 +4,22 @@ import styles from '../../styles/Planos.module.css'
 export default function Plano() {
   const [planos] = useState([
     {
-      nome: '60Mb',
-      up: '50Mb',
+      nome: '150Mb',
+      up: '150Mb',
       valor: 'R$ 89,99',
       tipo: 'Exclusivo Fibra Óptica',
       frase: 'Garantimos à você a melhor experiência',
     },
     {
-      nome: '100Mb',
-      up: '80Mb',
+      nome: '200Mb',
+      up: '200Mb',
       valor: 'R$ 99,99',
       tipo: 'Exclusivo Fibra Óptica',
       frase: 'Garantimos à você a melhor experiência',
     },
     {
-      nome: '200Mb',
-      up: '180Mb',
+      nome: '300Mb',
+      up: '300Mb',
       valor: 'R$ 149,99',
       tipo: 'Exclusivo Fibra Óptica',
       frase: 'Garantimos à você a melhor experiência',
