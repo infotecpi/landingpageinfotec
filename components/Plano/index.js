@@ -43,7 +43,7 @@ export default function Plano() {
       <div className={styles.cabecalho}>
         <h1>Conheça Nossos Planos</h1>
         <h2>
-          Adesão de R$240,00 à vista ou parcelado.
+          Adesão de R$150,00* à vista ou parcelado.
         </h2>
       </div>
 
@@ -91,6 +91,9 @@ export default function Plano() {
           </div>
         ))}
       </div>
+      <small>
+        *R$150,00 a adesão para clientes fibra óptica e R$ 200,00 para clientes rádio
+      </small>
       <small>
         *A internet à rádio é apenas para localidades que ainda não possuem
         fibra òptica
