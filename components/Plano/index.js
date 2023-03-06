@@ -92,11 +92,11 @@ export default function Plano() {
         ))}
       </div>
       <small>
-        *R$150,00 a adesão para clientes fibra óptica e R$ 200,00 para clientes rádio
+        * R$150,00 a adesão para clientes fibra óptica e R$ 200,00 para clientes rádio
       </small>
       <small>
         *A internet à rádio é apenas para localidades que ainda não possuem
-        fibra òptica
+        fibra óptica
       </small>
       <small>
         *Para a zona rural, a adesão pode ser dividida em até 6 vezes
