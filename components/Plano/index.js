@@ -24,13 +24,6 @@ export default function Plano() {
       tipo: 'Exclusivo Fibra Óptica',
       frase: 'Garantimos à você a melhor experiência',
     },
-    {
-      nome: '30Mb',
-      up: '20Mb',
-      valor: 'R$ 100,00',
-      tipo: 'Rádio - Zona Rural*',
-      frase: 'Garantimos à você a melhor experiência',
-    },
   ])
 
   function sendWhatsappMessage(plano) {
@@ -42,9 +35,6 @@ export default function Plano() {
       {/* CABEÇALHO */}
       <div className={styles.cabecalho}>
         <h1>Conheça Nossos Planos</h1>
-        <h2>
-          Adesão de R$150,00* à vista ou parcelado.
-        </h2>
       </div>
 
       {/* PLANOS */}
