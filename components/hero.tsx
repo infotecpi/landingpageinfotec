@@ -16,35 +16,35 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
             <div className="inline-flex items-center bg-[#fc842b] text-white px-4 py-2 rounded-full text-sm font-semibold animate-bounce">
-              <Gift className="w-4 h-4 mr-2" />
-              INSTALAÇÃO 100% GRATUITA!
+              <Zap className="w-4 h-4 mr-2" />
+              FIBRA ÓPTICA DE ALTA PERFORMANCE
             </div>
-            
+
             <h1 className="text-4xl md:text-6xl font-bold leading-tight bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent">
-              Internet de alta velocidade para sua casa ou empresa
+              Internet ultra-rápida e estável para sua casa ou empresa
             </h1>
-            
+
             <p className="text-lg md:text-xl opacity-90 leading-relaxed">
-              Conectamos você ao mundo com a melhor tecnologia em fibra óptica e rádio. 
-              <span className="font-semibold text-[#fc842b]"> Planos a partir de R$ 89,99</span> com instalação gratuita!
+              Conectamos você ao mundo com a melhor tecnologia em fibra óptica. Velocidade real, conexão estável e
+              <span className="font-semibold text-[#fc842b]"> planos a partir de R$ 89,99</span> com instalação inclusa!
             </p>
 
             {/* Benefits highlights */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-4">
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-lg p-3">
-                <Gift className="w-5 h-5 text-[#fc842b]" />
-                <span className="text-sm font-medium">Instalação Grátis</span>
-              </div>
-              <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-lg p-3">
                 <Zap className="w-5 h-5 text-yellow-300" />
-                <span className="text-sm font-medium">Alta Velocidade</span>
+                <span className="text-sm font-medium">Até 800 Mbps</span>
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-lg p-3">
                 <Shield className="w-5 h-5 text-green-300" />
-                <span className="text-sm font-medium">Suporte 24/7</span>
+                <span className="text-sm font-medium">Conexão Estável</span>
+              </div>
+              <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-lg p-3">
+                <Gift className="w-5 h-5 text-[#fc842b]" />
+                <span className="text-sm font-medium">Instalação Inclusa</span>
               </div>
             </div>
-            
+
             <div className="flex flex-wrap gap-4">
               <Button size="lg" className="bg-[#fc842b] hover:bg-[#e07525] text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
                 <Link href="#planos">Ver Planos</Link>

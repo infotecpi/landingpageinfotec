@@ -53,12 +53,12 @@ export default function Plans() {
             Nossos Planos
           </h2>
           <p className='text-gray-600 max-w-2xl mx-auto text-lg'>
-            Escolha o plano ideal para você. Todos os planos incluem
+            Velocidade real de fibra óptica para todas as suas necessidades.
             <span className='font-bold text-[#fc842b]'>
               {' '}
-              instalação totalmente gratuita
+              Instalação e equipamentos inclusos
             </span>{' '}
-            e equipamentos em comodato.
+            em todos os planos.
           </p>
         </div>
 
@@ -110,7 +110,7 @@ export default function Plans() {
                     </span>
                   </div>
                   <div className='mt-3 text-sm text-white opacity-90 font-medium'>
-                    + Instalação GRATUITA!
+                    Instalação e equipamentos inclusos
                   </div>
                 </div>
               </div>
@@ -118,11 +118,11 @@ export default function Plans() {
               <div className='p-8'>
                 <ul className='space-y-4 mb-8'>
                   <li className='flex items-start'>
-                    <div className='bg-green-100 rounded-full p-1 mr-3 flex-shrink-0'>
-                      <Gift className='h-4 w-4 text-green-600' />
+                    <div className='bg-blue-100 rounded-full p-1 mr-3 flex-shrink-0'>
+                      <Zap className='h-4 w-4 text-blue-600' />
                     </div>
                     <span className='text-gray-700 font-medium'>
-                      Instalação 100% gratuita
+                      Velocidade real garantida
                     </span>
                   </li>
                   {plan.features.map((feature, idx) => (
@@ -153,12 +153,12 @@ export default function Plans() {
           <div className='grid md:grid-cols-2 gap-6'>
             <ul className='space-y-4 text-gray-600'>
               <li className='flex items-start'>
-                <div className='bg-[#fc842b] rounded-full p-1 mr-3 flex-shrink-0'>
-                  <Gift className='h-4 w-4 text-white' />
+                <div className='bg-[#0092e5] rounded-full p-1 mr-3 flex-shrink-0'>
+                  <Zap className='h-4 w-4 text-white' />
                 </div>
                 <span>
-                  Instalação{' '}
-                  <b className='text-[#fc842b]'>totalmente gratuita</b>!
+                  Velocidade real de{' '}
+                  <b className='text-[#0092e5]'>fibra óptica</b>
                 </span>
               </li>
               <li className='flex items-start'>
