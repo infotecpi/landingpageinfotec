@@ -7,6 +7,7 @@ import Locations from "@/components/locations"
 import Clients from "@/components/clients"
 import Footer from "@/components/footer"
 import FAQ from "@/components/faq"
+import BackToTop from "@/components/back-to-top"
 // import Testimonials from "@/components/testimonials"
 // import MascotSection from "@/components/mascot-section"
 
@@ -16,16 +17,17 @@ export default function Home() {
       <Navbar />
       <main className="flex-grow">
         <Hero />
-        <FreeBenefits />
         <Plans />
+        <FreeBenefits />
         {/* <MascotSection /> */}
         <Locations />
+        <Clients />
         <FAQ />
         {/* <Testimonials /> */}
-        <Clients />
       </main>
       <Footer />
       <FloatingBanner />
+      <BackToTop />
     </div>
   )
 }

@@ -43,7 +43,7 @@ export default function FreeBenefits() {
       <div className='container mx-auto px-4 relative z-10'>
         <div className='text-center mb-16'>
           <h2 className='text-5xl font-bold mb-6 bg-gradient-to-r from-[#0092e5] via-[#0078bd] to-[#005a94] bg-clip-text text-transparent'>
-            Por que escolher a INFO-TEC?
+            4 Motivos Para Escolher a INFO-TEC
           </h2>
           <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
             Tecnologia de ponta, velocidade real e suporte especializado.
@@ -105,10 +105,10 @@ export default function FreeBenefits() {
               </p>
               <div className='flex flex-wrap justify-center gap-4'>
                 <button className='bg-white text-[#fc842b] px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200'>
-                  Contratar Agora
+                  Garantir Meu Plano - Instalação Grátis
                 </button>
                 <button className='border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-[#fc842b] transition-all duration-200'>
-                  Falar no WhatsApp
+                  Falar com Consultor
                 </button>
               </div>
             </div>

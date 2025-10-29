@@ -10,7 +10,7 @@ export default function Footer() {
             <div className='flex items-center mb-4'>
               <img
                 src='/images/mascote-infotec.png'
-                alt='Mascote INFO-TEC'
+                alt='Logo INFO-TEC - Provedor de Internet'
                 className='h-8 w-8 mr-2'
               />
               <span className='ml-2 text-xl font-bold'>INFO-TEC</span>

@@ -21,10 +21,10 @@ export default function Hero() {
             </div>
 
             <h1 className="text-4xl md:text-6xl font-bold leading-tight bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent">
-              Internet ultra-rápida e estável para sua casa ou empresa
+              A Internet Mais Rápida de Francisco Ayres
             </h1>
 
-            <p className="text-lg md:text-xl opacity-90 leading-relaxed">
+            <p className="text-lg md:text-xl opacity-90 leading-relaxed text-on-gradient">
               Conectamos você ao mundo com a melhor tecnologia em fibra óptica. Velocidade real, conexão estável e
               <span className="font-semibold text-[#fc842b]"> planos a partir de R$ 89,99</span> com instalação inclusa!
             </p>
@@ -48,18 +48,18 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="bg-[#fc842b] hover:bg-[#e07525] text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
-                <Link href="#planos">Ver Planos</Link>
+              <Button size="lg" className="bg-[#fc842b] hover:bg-[#e07525] text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 focus:ring-custom">
+                <Link href="#planos">Escolher Meu Plano Ideal</Link>
               </Button>
-              <Button size="lg" variant="outline" className="bg-white text-[#0092e5] hover:bg-gray-100 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
-                <Link href="#onde-atendemos">Verificar Cobertura</Link>
+              <Button size="lg" variant="outline" className="bg-white text-[#0092e5] hover:bg-gray-100 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 focus:ring-custom">
+                <Link href="#onde-atendemos">Consultar Disponibilidade na Minha Região</Link>
               </Button>
             </div>
           </div>
           <div className="hidden md:flex justify-center">
             <div className="relative">
               <div className="absolute -inset-4 rounded-full bg-white/20 animate-pulse"></div>
-              <img src="/images/mascote-infotec.png" alt="Mascote INFO-TEC" className="h-64 w-64 object-contain" />
+              <img src="/images/mascote-infotec.png" alt="Mascote da INFO-TEC representando velocidade e qualidade da internet fibra óptica" className="h-64 w-64 object-contain" />
             </div>
           </div>
         </div>

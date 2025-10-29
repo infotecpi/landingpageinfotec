@@ -20,7 +20,7 @@ export default function Navbar() {
           <Link href='/' className='flex items-center'>
             <img
               src='/images/mascote-infotec.png'
-              alt='Mascote INFO-TEC'
+              alt='Logo INFO-TEC - Provedor de Internet'
               className='h-10 w-10 mr-2'
             />
             <div className='flex flex-col'>
@@ -32,37 +32,37 @@ export default function Navbar() {
           <nav className='hidden md:flex items-center space-x-4'>
             <Link
               href='/#planos'
-              className='text-gray-700 hover:text-[#0092e5] px-3 py-2 rounded-md text-sm font-medium'
+              className='text-gray-700 hover:text-[#0092e5] px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200'
             >
               Nossos Planos
             </Link>
             <Link
               href='/#onde-atendemos'
-              className='text-gray-700 hover:text-[#0092e5] px-3 py-2 rounded-md text-sm font-medium'
+              className='text-gray-700 hover:text-[#0092e5] px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200'
             >
               Onde Atendemos
             </Link>
             <Link
               href='/#quem-somos'
-              className='text-gray-700 hover:text-[#0092e5] px-3 py-2 rounded-md text-sm font-medium'
+              className='text-gray-700 hover:text-[#0092e5] px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200'
             >
               Quem Somos
             </Link>
             <Link
               href='/#faq'
-              className='text-gray-700 hover:text-[#0092e5] px-3 py-2 rounded-md text-sm font-medium'
+              className='text-gray-700 hover:text-[#0092e5] px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200'
             >
               FAQ
             </Link>
             <Link
               href='/downloads'
-              className='text-gray-700 hover:text-[#0092e5] px-3 py-2 rounded-md text-sm font-medium'
+              className='text-gray-700 hover:text-[#0092e5] px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200'
             >
               Downloads
             </Link>
             <Link
               href='https://api.whatsapp.com/send/?phone=%2B5589994578337&text=Ol%C3%A1%2C+Tudo+Bem%3F+Estou+com+problemas+na+internet&type=phone_number&app_absent=0'
-              className='text-gray-700 hover:text-[#0092e5] px-3 py-2 rounded-md text-sm font-medium'
+              className='text-gray-700 hover:text-[#0092e5] px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200'
             >
               Está Sem Conexão?
             </Link>
@@ -98,42 +98,42 @@ export default function Navbar() {
             <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
               <Link
                 href='/#planos'
-                className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0092e5]'
+                className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0092e5] transition-colors duration-200'
                 onClick={toggleMenu}
               >
                 Nossos Planos
               </Link>
               <Link
                 href='/#onde-atendemos'
-                className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0092e5]'
+                className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0092e5] transition-colors duration-200'
                 onClick={toggleMenu}
               >
                 Onde Atendemos
               </Link>
               <Link
                 href='/#quem-somos'
-                className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0092e5]'
+                className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0092e5] transition-colors duration-200'
                 onClick={toggleMenu}
               >
                 Quem Somos
               </Link>
               <Link
                 href='/#faq'
-                className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0092e5]'
+                className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0092e5] transition-colors duration-200'
                 onClick={toggleMenu}
               >
                 FAQ
               </Link>
               <Link
                 href='/downloads'
-                className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0092e5]'
+                className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0092e5] transition-colors duration-200'
                 onClick={toggleMenu}
               >
                 Downloads
               </Link>
               <Link
                 href='https://api.whatsapp.com/send/?phone=%2B5589994578337&text=Ol%C3%A1%2C+Tudo+Bem%3F+Estou+com+problemas+na+internet&type=phone_number&app_absent=0'
-                className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0092e5]'
+                className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#0092e5] transition-colors duration-200'
                 onClick={toggleMenu}
               >
                 Está Sem Conexão?
