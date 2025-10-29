@@ -13,7 +13,6 @@ export default function Footer() {
                 alt='Logo INFO-TEC NETWORKS - Provedor de Internet'
                 className='h-8 w-auto mr-2'
               />
-              <span className='ml-2 text-xl font-bold'>INFO-TEC NETWORKS</span>
             </div>
             <p className='text-gray-400 mb-4'>
               Mais que produtos, vendemos soluções.
@@ -85,8 +84,8 @@ export default function Footer() {
           <p>ATO DE AUTORIZAÇÃO - ANATEL 7679 de 13 de dezembro de 2020</p>
 
           <p>
-            &copy; {new Date().getFullYear()} INFO-TEC NETWORKS. Todos os direitos
-            reservados.
+            &copy; {new Date().getFullYear()} INFO-TEC NETWORKS. Todos os
+            direitos reservados.
           </p>
         </div>
       </div>
