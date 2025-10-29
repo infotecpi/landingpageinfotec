@@ -3,9 +3,9 @@ import './globals.css';
 
 // https://infotecpi.com.br/
 export const metadata: Metadata = {
-  title: 'INFO-TEC | O melhor provedor de internet fibra óptica da região',
+  title: 'INFO-TEC NETWORKS | O melhor provedor de internet fibra óptica da região',
   description:
-    'INFO-TEC, o provedor de internet fibra que oferece planos rápidos, confiáveis e com suporte excepcional. Navegue com velocidade e estabilidade.',
+    'INFO-TEC NETWORKS, o provedor de internet fibra que oferece planos rápidos, confiáveis e com suporte excepcional. Navegue com velocidade e estabilidade.',
   authors: [
     {
       name: 'Jarod Cavalcante',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     },
   ],
   keywords: [
-    'INFO-TEC',
+    'INFO-TEC NETWORKS',
     'provedor de internet',
     'fibra óptica',
     'internet rápida',
@@ -24,17 +24,17 @@ export const metadata: Metadata = {
     'piauí',
   ],
   openGraph: {
-    title: 'INFO-TEC | O melhor provedor de internet fibra da região',
+    title: 'INFO-TEC NETWORKS | O melhor provedor de internet fibra da região',
     description:
-      'INFO-TEC, o provedor de internet fibra que oferece planos rápidos, confiáveis e com suporte excepcional. Navegue com velocidade e estabilidade.',
+      'INFO-TEC NETWORKS, o provedor de internet fibra que oferece planos rápidos, confiáveis e com suporte excepcional. Navegue com velocidade e estabilidade.',
     url: 'https://infotecpi.com.br/',
-    siteName: 'INFO-TEC',
+    siteName: 'INFO-TEC NETWORKS',
     images: [
       {
         url: '/android-chrome-192x192.png',
         width: 1200,
         height: 630,
-        alt: 'INFO-TEC - Provedor de Internet Fibra Óptica',
+        alt: 'INFO-TEC NETWORKS - Provedor de Internet Fibra Óptica',
       },
     ],
     locale: 'pt-BR',

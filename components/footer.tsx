@@ -9,11 +9,11 @@ export default function Footer() {
           <div>
             <div className='flex items-center mb-4'>
               <img
-                src='/images/mascote-infotec.png'
-                alt='Logo INFO-TEC - Provedor de Internet'
-                className='h-8 w-8 mr-2'
+                src='/images/info-tec-networks-logo.png'
+                alt='Logo INFO-TEC NETWORKS - Provedor de Internet'
+                className='h-8 w-auto mr-2'
               />
-              <span className='ml-2 text-xl font-bold'>INFO-TEC</span>
+              <span className='ml-2 text-xl font-bold'>INFO-TEC NETWORKS</span>
             </div>
             <p className='text-gray-400 mb-4'>
               Mais que produtos, vendemos soluções.
@@ -24,7 +24,7 @@ export default function Footer() {
                 className='text-gray-400 hover:text-[#0092e5]'
                 target='_blank'
                 rel='noopener noreferrer'
-                title='Instagram INFO-TEC'
+                title='Instagram INFO-TEC NETWORKS'
               >
                 <Instagram />
               </a>
@@ -85,7 +85,7 @@ export default function Footer() {
           <p>ATO DE AUTORIZAÇÃO - ANATEL 7679 de 13 de dezembro de 2020</p>
 
           <p>
-            &copy; {new Date().getFullYear()} INFO-TEC. Todos os direitos
+            &copy; {new Date().getFullYear()} INFO-TEC NETWORKS. Todos os direitos
             reservados.
           </p>
         </div>

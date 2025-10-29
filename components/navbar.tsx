@@ -19,13 +19,10 @@ export default function Navbar() {
           {/* Logo */}
           <Link href='/' className='flex items-center'>
             <img
-              src='/images/mascote-infotec.png'
-              alt='Logo INFO-TEC - Provedor de Internet'
-              className='h-10 w-10 mr-2'
+              src='/images/info-tec-networks-logo.png'
+              alt='Logo INFO-TEC NETWORKS - Provedor de Internet'
+              className='h-12 w-auto'
             />
-            <div className='flex flex-col'>
-              <span className='text-xl font-bold text-[#0092e5]'>INFO-TEC</span>
-            </div>
           </Link>
 
           {/* Desktop Navigation */}

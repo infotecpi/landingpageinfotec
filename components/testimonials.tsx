@@ -13,7 +13,7 @@ export default function Testimonials() {
       location: "Francisco Ayres",
       image: "/placeholder.svg?height=80&width=80",
       rating: 5,
-      text: "A INFO-TEC mudou completamente minha experiência com internet. Antes eu tinha problemas constantes, agora posso trabalhar de casa sem preocupações. A velocidade é excelente e o suporte sempre me atende rapidamente!",
+      text: "A INFO-TEC NETWORKS mudou completamente minha experiência com internet. Antes eu tinha problemas constantes, agora posso trabalhar de casa sem preocupações. A velocidade é excelente e o suporte sempre me atende rapidamente!",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ export default function Testimonials() {
       location: "Francisco Ayres",
       image: "/placeholder.svg?height=80&width=80",
       rating: 5,
-      text: "Como empresário, preciso de uma internet confiável para meu posto. A INFO-TEC nunca me deixou na mão. O sistema de pagamento funciona perfeitamente e nunca tive problemas de conexão.",
+      text: "Como empresário, preciso de uma internet confiável para meu posto. A INFO-TEC NETWORKS nunca me deixou na mão. O sistema de pagamento funciona perfeitamente e nunca tive problemas de conexão.",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ export default function Testimonials() {
       location: "Arraial",
       image: "/placeholder.svg?height=80&width=80",
       rating: 5,
-      text: "Trabalho com aulas online e a qualidade da internet da INFO-TEC é fundamental para meu trabalho. A instalação foi rápida e o técnico muito educado. Recomendo para todos!",
+      text: "Trabalho com aulas online e a qualidade da internet da INFO-TEC NETWORKS é fundamental para meu trabalho. A instalação foi rápida e o técnico muito educado. Recomendo para todos!",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ export default function Testimonials() {
       location: "Francisco Ayres",
       image: "/placeholder.svg?height=80&width=80",
       rating: 5,
-      text: "Nossa empresa depende de uma conexão estável para o sistema de vendas. A INFO-TEC oferece um serviço de qualidade com suporte técnico excepcional. Estamos muito satisfeitos!",
+      text: "Nossa empresa depende de uma conexão estável para o sistema de vendas. A INFO-TEC NETWORKS oferece um serviço de qualidade com suporte técnico excepcional. Estamos muito satisfeitos!",
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ export default function Testimonials() {
       location: "Tocuns - Zona Rural",
       image: "/placeholder.svg?height=80&width=80",
       rating: 5,
-      text: "Moro na zona rural e achava que nunca teria internet boa. A INFO-TEC provou que eu estava errada! Agora posso conversar com meus netos por vídeo sem travamentos.",
+      text: "Moro na zona rural e achava que nunca teria internet boa. A INFO-TEC NETWORKS provou que eu estava errada! Agora posso conversar com meus netos por vídeo sem travamentos.",
     },
     {
       id: 6,
@@ -58,7 +58,7 @@ export default function Testimonials() {
       location: "Francisco Ayres",
       image: "/placeholder.svg?height=80&width=80",
       rating: 5,
-      text: "A internet da INFO-TEC revolucionou meu negócio. Agora posso fazer vendas online, consultar preços em tempo real e oferecer um melhor atendimento aos meus clientes.",
+      text: "A internet da INFO-TEC NETWORKS revolucionou meu negócio. Agora posso fazer vendas online, consultar preços em tempo real e oferecer um melhor atendimento aos meus clientes.",
     },
   ]
 
@@ -189,7 +189,7 @@ export default function Testimonials() {
           <div className="bg-gradient-to-r from-[#0092e5] to-[#0078bd] p-8 rounded-lg text-white max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">Seja nosso próximo cliente satisfeito!</h3>
             <p className="mb-6 opacity-90">
-              Junte-se a centenas de clientes que já escolheram a qualidade da INFO-TEC.
+              Junte-se a centenas de clientes que já escolheram a qualidade da INFO-TEC NETWORKS.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button className="bg-[#fc842b] hover:bg-[#e07525] text-white">

@@ -23,7 +23,7 @@ export default function Clients() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Quem Somos</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            A INFO-TEC é um provedor de internet comprometido em oferecer conexão de qualidade para residências e
+            A INFO-TEC NETWORKS é um provedor de internet comprometido em oferecer conexão de qualidade para residências e
             empresas. Conheça alguns dos nossos clientes que confiam em nossos serviços.
           </p>
         </div>

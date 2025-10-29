@@ -59,7 +59,7 @@ export default function Hero() {
           <div className="hidden md:flex justify-center">
             <div className="relative">
               <div className="absolute -inset-4 rounded-full bg-white/20 animate-pulse"></div>
-              <img src="/images/mascote-infotec.png" alt="Mascote da INFO-TEC representando velocidade e qualidade da internet fibra óptica" className="h-64 w-64 object-contain" />
+              <img src="/images/mascote-infotec.png" alt="Mascote da INFO-TEC NETWORKS representando velocidade e qualidade da internet fibra óptica" className="h-64 w-64 object-contain" />
             </div>
           </div>
         </div>

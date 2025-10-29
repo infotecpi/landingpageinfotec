@@ -43,7 +43,7 @@ export default function FreeBenefits() {
       <div className='container mx-auto px-4 relative z-10'>
         <div className='text-center mb-16'>
           <h2 className='text-5xl font-bold mb-6 bg-gradient-to-r from-[#0092e5] via-[#0078bd] to-[#005a94] bg-clip-text text-transparent'>
-            4 Motivos Para Escolher a INFO-TEC
+            4 Motivos Para Escolher a INFO-TEC NETWORKS
           </h2>
           <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
             Tecnologia de ponta, velocidade real e suporte especializado.

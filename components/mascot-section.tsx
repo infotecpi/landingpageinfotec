@@ -30,7 +30,7 @@ export default function MascotSection() {
               <div className="absolute inset-0 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
               <img
                 src="/images/mascote-infotec.png"
-                alt="Mascote INFO-TEC"
+                alt="Mascote INFO-TEC NETWORKS"
                 className="h-80 w-80 object-contain relative z-10 animate-bounce"
                 style={{ animationDuration: "3s" }}
               />
