@@ -13,12 +13,7 @@ export default function FAQ() {
     {
       question: 'Vocês cobrem eventos?',
       answer:
-        'Sim! Oferecemos cobertura para eventos de todos os tamanhos, desde pequenas festas até grandes shows e festivais. Nossa equipe técnica está preparada para garantir uma conexão estável e de alta qualidade durante todo o evento.',
-    },
-    {
-      question: 'Quais são as formas de pagamento disponíveis?',
-      answer:
-        'Aceitamos diversas formas de pagamento: cartão de crédito, débito automático, boleto bancário e PIX. Para facilitar, recomendamos o débito automático para evitar atrasos e garantir que seu serviço não seja interrompido.',
+        'Sim! Oferecemos cobertura para eventos de todos os tamanhos. Nossa equipe técnica está preparada para garantir uma conexão estável e de alta qualidade durante todo o evento.',
     },
     {
       question: 'Há taxa de instalação?',
@@ -33,7 +28,7 @@ export default function FAQ() {
     {
       question: 'O que está incluído no plano?',
       answer:
-        'Todos os nossos planos incluem: instalação, equipamentos em comodato (modem/roteador Wi-Fi) e suporte técnico 24/7.',
+        'Todos os nossos planos incluem: instalação, equipamentos em comodato (onu/roteador Wi-Fi) e suporte técnico 24/7.',
     },
     {
       question: 'Como funciona o suporte técnico?',
@@ -48,7 +43,7 @@ export default function FAQ() {
     {
       question: 'O que fazer se minha internet estiver lenta?',
       answer:
-        'Primeiro, reinicie seu modem/roteador. Se o problema persistir, entre em contato com nosso suporte técnico. Realizamos testes remotos e, se necessário, enviamos um técnico para verificar a instalação.',
+        'Primeiro, reinicie seu roteador. Se o problema persistir, entre em contato com nosso suporte técnico. Realizamos testes remotos e, se necessário, enviamos um técnico para verificar a instalação.',
     },
   ];
 

@@ -19,7 +19,7 @@ export default function FreeBenefits() {
       icon: Headphones,
       title: 'Suporte Especializado',
       description:
-        'Atendimento técnico qualificado disponível 24 horas por dia.',
+        'Atendimento técnico qualificado.',
       highlight: '24/7',
     },
     {
