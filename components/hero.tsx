@@ -29,6 +29,8 @@ export default function Hero() {
               <span className="font-semibold text-[#fc842b]"> planos a partir de R$ 89,99</span> com instalação inclusa!
             </p>
 
+
+
             {/* Benefits highlights */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-4">
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-lg p-3">

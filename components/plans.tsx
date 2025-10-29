@@ -165,6 +165,10 @@ export default function Plans() {
                 <Check className='h-5 w-5 text-[#0092e5] mr-3 flex-shrink-0 mt-0.5' />
                 <span>12 meses de fidelidade para todos os planos</span>
               </li>
+              <li className='flex items-start'>
+                <Check className='h-5 w-5 text-[#0092e5] mr-3 flex-shrink-0 mt-0.5' />
+                <span>Desconto de R$ 4,00 para pagamento em dia</span>
+              </li>
             </ul>
             <ul className='space-y-4 text-gray-600'>
               <li className='flex items-start'>
