@@ -10,6 +10,32 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 20px rgba(252, 132, 43, 0.5);
+  }
+  to {
+    box-shadow: 0 0 30px rgba(252, 132, 43, 0.8);
+  }
 }
 
 @layer base {

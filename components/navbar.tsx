@@ -23,9 +23,9 @@ export default function Navbar() {
               alt='Mascote INFO-TEC'
               className='h-10 w-10 mr-2'
             />
-            <span className='ml-2 text-xl font-bold text-[#0092e5]'>
-              INFO-TEC
-            </span>
+            <div className='flex flex-col'>
+              <span className='text-xl font-bold text-[#0092e5]'>INFO-TEC</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

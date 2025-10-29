@@ -1,6 +1,8 @@
 import Hero from "@/components/hero"
 import Navbar from "@/components/navbar"
 import Plans from "@/components/plans"
+import FreeBenefits from "@/components/free-benefits"
+import FloatingBanner from "@/components/floating-banner"
 import Locations from "@/components/locations"
 import Clients from "@/components/clients"
 import Footer from "@/components/footer"
@@ -14,6 +16,7 @@ export default function Home() {
       <Navbar />
       <main className="flex-grow">
         <Hero />
+        <FreeBenefits />
         <Plans />
         {/* <MascotSection /> */}
         <Locations />
@@ -22,6 +25,7 @@ export default function Home() {
         <Clients />
       </main>
       <Footer />
+      <FloatingBanner />
     </div>
   )
 }
