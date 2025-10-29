@@ -68,12 +68,12 @@ export default function Plans() {
               key={index}
               className={`bg-white rounded-2xl shadow-xl overflow-hidden relative transform transition-all duration-300 hover:scale-105 hover:shadow-2xl ${
                 plan.popular
-                  ? 'ring-4 ring-[#fc842b] md:-translate-y-4 shadow-2xl z-50'
+                  ? 'ring-4 ring-[#fc842b] md:-translate-y-4 shadow-2xl z-40'
                   : 'hover:ring-2 hover:ring-[#0092e5] z-20'
               }`}
             >
               {plan.popular && (
-                <div className='bg-gradient-to-r from-[#fc842b] to-[#e07525] text-white text-sm font-bold px-4 py-2 absolute right-0 top-0 rounded-bl-2xl shadow-lg z-50'>
+                <div className='bg-gradient-to-r from-[#fc842b] to-[#e07525] text-white text-sm font-bold px-4 py-2 absolute right-0 top-0 rounded-bl-2xl shadow-lg z-40'>
                   MAIS POPULAR
                 </div>
               )}
