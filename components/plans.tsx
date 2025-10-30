@@ -132,15 +132,19 @@ export default function Plans() {
                     </li>
                   ))}
                 </ul>
-                <Button
-                  className={`w-full py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 ${
-                    plan.popular
-                      ? 'bg-gradient-to-r from-[#fc842b] to-[#e07525] hover:from-[#e07525] hover:to-[#d06620] text-white'
-                      : 'bg-gradient-to-r from-[#0092e5] to-[#0078bd] hover:from-[#0078bd] hover:to-[#005a94] text-white'
-                  }`}
+                <a
+                  href={`https://wa.me/5589994578337?text=Ol%C3%A1%2C%20vim%20pelo%20site!%20Tenho%20interesse%20no%20plano%20de%20${plan.speed}`}
                 >
-                  Garantir Este Plano
-                </Button>
+                  <Button
+                    className={`w-full py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 ${
+                      plan.popular
+                        ? 'bg-gradient-to-r from-[#fc842b] to-[#e07525] hover:from-[#e07525] hover:to-[#d06620] text-white'
+                        : 'bg-gradient-to-r from-[#0092e5] to-[#0078bd] hover:from-[#0078bd] hover:to-[#005a94] text-white'
+                    }`}
+                  >
+                    Garantir Este Plano
+                  </Button>
+                </a>
               </div>
             </div>
           ))}

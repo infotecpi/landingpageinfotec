@@ -12,14 +12,14 @@ export default function FreeBenefits() {
     {
       icon: Wifi,
       title: 'Conexão Estável',
-      description: 'Tecnologia de ponta para máxima estabilidade e qualidade de sinal.',
+      description:
+        'Tecnologia de ponta para máxima estabilidade e qualidade de sinal.',
       highlight: '99,9%',
     },
     {
       icon: Headphones,
       title: 'Suporte Especializado',
-      description:
-        'Atendimento técnico qualificado.',
+      description: 'Atendimento técnico qualificado.',
       highlight: '24/7',
     },
     {
@@ -101,15 +101,21 @@ export default function FreeBenefits() {
                 Pronto para ter a internet mais rápida da região?
               </h3>
               <p className='text-xl text-white opacity-90 mb-6'>
-                Não perca tempo! Contrate agora e tenha velocidade real com instalação inclusa.
+                Não perca tempo! Contrate agora e tenha velocidade real com
+                instalação inclusa.
               </p>
               <div className='flex flex-wrap justify-center gap-4'>
-                <button className='bg-white text-[#fc842b] px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200'>
-                  Garantir Meu Plano - Instalação Grátis
-                </button>
-                <button className='border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-[#fc842b] transition-all duration-200'>
-                  Falar com Consultor
-                </button>
+                <a href='https://wa.me/5589994578337?text=Ol%C3%A1%2C%20vim%20pelo%20site!%20Quero%20garantir%20meu%20plano%20e%20instala%C3%A7%C3%A3o%20gr%C3%A1tis'>
+                  <button className='bg-white text-[#fc842b] px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200'>
+                    Garantir Meu Plano - Instalação Grátis
+                  </button>
+                </a>
+
+                <a href='https://wa.me/5589994578337?text=Ol%C3%A1%2C%20vim%20pelo%20site!%20Quero%20falar%20com%20um%20consultor'>
+                  <button className='border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-[#fc842b] transition-all duration-200'>
+                    Falar com Consultor
+                  </button>
+                </a>
               </div>
             </div>
           </div>
