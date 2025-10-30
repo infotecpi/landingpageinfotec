@@ -1,4 +1,4 @@
-import { Gift, Wifi, Headphones, Clock, Zap } from 'lucide-react';
+import { Gift, Wifi, Headphones, Zap } from 'lucide-react';
 
 export default function FreeBenefits() {
   const benefits = [
