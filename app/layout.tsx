@@ -1,11 +1,17 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import StructuredData from '@/components/structured-data';
+import SEOMeta from '@/components/seo-meta';
 
 // https://infotecpi.com.br/
 export const metadata: Metadata = {
-  title: 'INFO-TEC NETWORKS | O melhor provedor de internet fibra óptica da região',
+  metadataBase: new URL('https://infotecpi.com.br'),
+  title: {
+    default: 'INFO-TEC NETWORKS | Internet Fibra Óptica Francisco Ayres, Arraial e região',
+    template: '%s | INFO-TEC NETWORKS'
+  },
   description:
-    'INFO-TEC NETWORKS, o provedor de internet fibra que oferece planos rápidos, confiáveis e com suporte excepcional. Navegue com velocidade e estabilidade.',
+    'INFO-TEC NETWORKS: Internet fibra óptica de alta velocidade em Francisco Ayres, Arraial e região. Planos a partir de R$ 89,99 com instalação gratuita, suporte 24/7 e velocidade real garantida.',
   authors: [
     {
       name: 'Jarod Cavalcante',
@@ -13,36 +19,63 @@ export const metadata: Metadata = {
     },
   ],
   keywords: [
+    'internet fibra óptica Francisco Ayres',
+    'provedor internet Arraial PI',
     'INFO-TEC NETWORKS',
-    'provedor de internet',
-    'fibra óptica',
-    'internet rápida',
-    'suporte técnico',
-    'planos de internet',
-    'francisco ayres',
-    'arraial',
-    'piauí',
+    'internet rápida Piauí',
+    'fibra óptica Piauí',
+    'planos internet Francisco Ayres',
+    'internet banda larga Arraial',
+    'provedor internet Piauí',
+    'velocidade real garantida',
+    'instalação gratuita internet',
+    'suporte técnico 24h',
+    'internet ilimitada Piauí'
   ],
   openGraph: {
-    title: 'INFO-TEC NETWORKS | O melhor provedor de internet fibra da região',
+    title: 'INFO-TEC NETWORKS | Internet Fibra Óptica Francisco Ayres, Arraial e região',
     description:
-      'INFO-TEC NETWORKS, o provedor de internet fibra que oferece planos rápidos, confiáveis e com suporte excepcional. Navegue com velocidade e estabilidade.',
-    url: 'https://infotecpi.com.br/',
+      'Internet fibra óptica de alta velocidade em Francisco Ayres, Arraial e região. Planos a partir de R$ 89,99 com instalação gratuita e velocidade real garantida.',
+    url: 'https://infotecpi.com.br',
     siteName: 'INFO-TEC NETWORKS',
     images: [
       {
-        url: '/android-chrome-192x192.png',
+        url: '/images/info-tec-networks-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'INFO-TEC NETWORKS - Provedor de Internet Fibra Óptica',
+        alt: 'INFO-TEC NETWORKS - Internet Fibra Óptica Francisco Ayres, Arraial e região',
       },
     ],
-    locale: 'pt-BR',
+    locale: 'pt_BR',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'INFO-TEC NETWORKS | Internet Fibra Óptica Francisco Ayres, Arraial e região',
+    description: 'Internet fibra óptica de alta velocidade em Francisco Ayres, Arraial e região. Planos a partir de R$ 89,99 com instalação gratuita.',
+    images: ['/images/info-tec-networks-og-image.jpg'],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://infotecpi.com.br',
+  },
+  category: 'Internet Service Provider',
+  classification: 'Provedor de Internet',
+  other: {
+    'geo.region': 'BR-PI',
+    'geo.placename': 'Francisco Ayres, Arraial',
+    'geo.position': '-7.1;-40.7',
+    'ICBM': '-7.1, -40.7',
   },
 };
 
@@ -53,6 +86,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='pt-BR'>
+      <head>
+        <SEOMeta />
+        <StructuredData />
+      </head>
       <body>{children}</body>
     </html>
   );

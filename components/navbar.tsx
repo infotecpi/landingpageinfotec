@@ -20,8 +20,11 @@ export default function Navbar() {
           <Link href='/' className='flex items-center'>
             <img
               src='/images/info-tec-networks-logo.png'
-              alt='Logo INFO-TEC NETWORKS - Provedor de Internet'
+              alt='Logo INFO-TEC NETWORKS - Provedor de Internet Fibra Óptica Francisco Ayres, Arraial e região'
               className='h-12 w-auto'
+              loading='eager'
+              width='120'
+              height='48'
             />
           </Link>
 

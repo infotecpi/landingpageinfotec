@@ -42,7 +42,7 @@ export default function Hero() {
             </div>
 
             <h1 className='text-4xl md:text-6xl font-bold leading-tight bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent'>
-              A Internet Mais Rápida{' '}
+              Internet Fibra Óptica Mais Rápida{' '}
               <span className='relative inline-block'>
                 <span
                   className={`text-white bg-none transition-opacity duration-1000 ease-in-out ${
@@ -56,12 +56,12 @@ export default function Hero() {
 
             <p className='text-lg md:text-xl opacity-90 leading-relaxed text-on-gradient'>
               Conectamos você ao mundo com a melhor tecnologia em fibra óptica.
-              Velocidade real, conexão estável e
+              Velocidade real garantida, conexão ultra estável e
               <span className='font-semibold text-[#fc842b]'>
                 {' '}
                 planos a partir de R$ 89,99
               </span>{' '}
-              com instalação inclusa!
+              com instalação gratuita e equipamentos inclusos!
             </p>
 
             {/* Benefits highlights */}
@@ -103,8 +103,11 @@ export default function Hero() {
               <div className='absolute -inset-4 rounded-full bg-white/20 animate-pulse'></div>
               <img
                 src='/images/mascote-infotec.png'
-                alt='Mascote da INFO-TEC NETWORKS representando velocidade e qualidade da internet fibra óptica'
+                alt='Mascote da INFO-TEC NETWORKS representando velocidade e qualidade da internet fibra óptica em Francisco Ayres, Arraial e região'
                 className='h-64 w-64 object-contain'
+                loading='eager'
+                width='256'
+                height='256'
               />
             </div>
           </div>

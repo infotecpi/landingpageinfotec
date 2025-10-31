@@ -11,39 +11,49 @@ import { HelpCircle } from 'lucide-react';
 export default function FAQ() {
   const faqs = [
     {
-      question: 'Vocês cobrem eventos?',
+      question: 'Qual a velocidade real da internet fibra óptica da INFO-TEC?',
       answer:
-        'Sim! Oferecemos cobertura para eventos de todos os tamanhos. Nossa equipe técnica está preparada para garantir uma conexão estável e de alta qualidade durante todo o evento.',
+        'Nossa internet fibra óptica oferece velocidade real garantida de 500 Mbps, 700 Mbps ou 800 Mbps, dependendo do plano escolhido. A velocidade é simétrica (mesma velocidade para download e upload) e estável 24 horas por dia.',
     },
     {
-      question: 'Há taxa de instalação?',
+      question: 'Há taxa de instalação da internet fibra óptica?',
       answer:
-        'Não! A instalação é gratuita para todos os nossos planos. Nossa equipe técnica realiza a instalação de forma rápida e eficiente, sem custo adicional.',
+        'Não! A instalação é 100% gratuita para todos os nossos planos de internet fibra óptica. Nossa equipe técnica especializada realiza a instalação de forma rápida e profissional, sem nenhum custo adicional.',
     },
     {
       question: 'Qual a diferença entre fibra óptica e internet via rádio?',
       answer:
-        'A fibra óptica oferece maior estabilidade e velocidade, sendo nossa tecnologia principal. A internet via rádio é disponibilizada apenas para localidades que ainda não possuem cobertura de fibra óptica, garantindo que todos tenham acesso à internet de qualidade.',
+        'A fibra óptica oferece muito maior estabilidade, velocidade e qualidade de conexão. É nossa tecnologia principal em Francisco Ayres, Arraial e região. A internet via rádio é disponibilizada apenas para localidades rurais que ainda não possuem cobertura de fibra óptica.',
     },
     {
-      question: 'O que está incluído no plano?',
+      question: 'O que está incluído nos planos de internet?',
       answer:
-        'Todos os nossos planos incluem: instalação, equipamentos em comodato (onu/roteador Wi-Fi) e suporte técnico 24/7.',
+        'Todos os nossos planos incluem: instalação gratuita, equipamentos em comodato (ONU e roteador Wi-Fi), suporte técnico especializado, velocidade real garantida e internet ilimitada sem franquia de dados.',
     },
     {
-      question: 'Como funciona o suporte técnico?',
+      question: 'Como funciona o suporte técnico da INFO-TEC?',
       answer:
-        'Nosso suporte técnico funciona de segunda a sábado das 8h às 19h, e aos domingos das 8h às 12h. Você pode entrar em contato por telefone ou WhatsApp. Nossa equipe está sempre pronta para ajudar com qualquer problema ou dúvida que você tenha.',
+        'Nosso suporte técnico funciona de segunda a sábado das 8h às 19h, e aos domingos das 8h às 12h. Atendimento via telefone (89) 99457-8337 ou WhatsApp. Temos técnicos locais em Francisco Ayres, Arraial e região para atendimento rápido.',
     },
     {
-      question: 'Há limite de dados nos planos?',
+      question: 'Os planos de internet têm limite de dados?',
       answer:
-        'Não! Todos os nossos planos são ilimitados. Você pode navegar, assistir vídeos, jogar online e fazer downloads sem se preocupar com limites de dados.',
+        'Não! Todos os nossos planos são 100% ilimitados. Você pode navegar, assistir vídeos em 4K, jogar online, fazer videoconferências e downloads sem se preocupar com limites de dados ou redução de velocidade.',
     },
     {
-      question: 'O que fazer se minha internet estiver lenta?',
+      question: 'O que fazer se a internet fibra óptica estiver lenta?',
       answer:
-        'Primeiro, reinicie seu roteador. Se o problema persistir, entre em contato com nosso suporte técnico. Realizamos testes remotos e, se necessário, enviamos um técnico para verificar a instalação.',
+        'Primeiro, reinicie seu roteador desligando por 30 segundos. Verifique se há muitos dispositivos conectados. Se o problema persistir, entre em contato com nosso suporte técnico pelo (89) 99457-8337. Realizamos testes remotos e, se necessário, enviamos um técnico no mesmo dia.',
+    },
+    {
+      question: 'Quanto custa a internet fibra óptica em Francisco Ayres?',
+      answer:
+        'Nossos planos começam em R$ 89,99 (500 Mbps), R$ 99,99 (700 Mbps) e R$ 149,99 (800 Mbps). Todos incluem instalação gratuita, equipamentos e suporte técnico. Oferecemos desconto de R$ 4,00 para pagamento em dia.',
+    },
+    {
+      question: 'Vocês atendem eventos',
+      answer:
+        'Sim! Oferecemos cobertura especializada para eventos de todos os tamanhos. Nossa equipe técnica garante conexão estável e de alta qualidade durante todo o evento, com equipamentos profissionais.',
     },
   ];
 
@@ -53,11 +63,11 @@ export default function FAQ() {
         <div className='text-center mb-12'>
           <div className='flex items-center justify-center mb-4'>
             <HelpCircle className='h-8 w-8 text-[#0092e5] mr-2' />
-            <h2 className='text-3xl font-bold'>Perguntas Frequentes</h2>
+            <h2 className='text-3xl font-bold'>Perguntas Frequentes sobre Internet Fibra Óptica</h2>
           </div>
           <p className='text-gray-600 max-w-2xl mx-auto'>
-            Tire suas dúvidas sobre nossos serviços. Se não encontrar a resposta
-            que procura, entre em contato conosco.
+            Tire suas dúvidas sobre nossos planos de internet fibra óptica, instalação, suporte técnico e cobertura em Francisco Ayres, Arraial e região. 
+            Se não encontrar a resposta que procura, entre em contato conosco.
           </p>
         </div>
 
