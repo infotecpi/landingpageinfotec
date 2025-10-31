@@ -105,7 +105,7 @@ export default function Hero() {
                 src='/images/mascote-infotec.webp'
                 alt='Mascote da INFO-TEC NETWORKS representando velocidade e qualidade da internet fibra óptica em Francisco Ayres, Arraial e região'
                 className='h-64 w-64 object-contain'
-                loading='eager'
+                loading='lazy'
                 width='256'
                 height='256'
               />

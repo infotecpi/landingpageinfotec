@@ -22,7 +22,7 @@ export default function Navbar() {
               src='/images/info-tec-networks-logo.webp'
               alt='Logo INFO-TEC NETWORKS - Provedor de Internet Fibra Óptica Francisco Ayres, Arraial e região'
               className='h-12 w-auto'
-              loading='eager'
+              loading='lazy'
               width='120'
               height='48'
             />
