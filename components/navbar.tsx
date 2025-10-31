@@ -67,7 +67,7 @@ export default function Navbar() {
               Está Sem Conexão?
             </Link>
             <Button
-              className='bg-[#fc842b] hover:bg-[#e07525] ml-4'
+              className='bg-[#fc842b] hover:bg-[#e07525] ml-4 rounded-2xl'
               onClick={() =>
                 (window.location.href =
                   'https://ixc.infotecpi.com.br/central_assinante_web/login')
@@ -141,7 +141,7 @@ export default function Navbar() {
               </Link>
               <div className='pt-2'>
                 <Button
-                  className='w-full bg-[#fc842b] hover:bg-[#e07525]'
+                  className='w-full bg-[#fc842b] hover:bg-[#e07525] rounded-2xl'
                   onClick={() =>
                     (window.location.href =
                       'https://ixc.infotecpi.com.br/central_assinante_web/login')

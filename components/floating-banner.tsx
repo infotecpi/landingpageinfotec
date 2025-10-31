@@ -48,7 +48,7 @@ export default function FloatingBanner() {
           </p>
 
           <Button
-            className='w-full bg-white text-[#fc842b] hover:bg-gray-100 font-bold text-sm py-2 shadow-lg'
+            className='w-full bg-white text-[#fc842b] hover:bg-gray-100 font-bold text-sm py-2 shadow-lg rounded-2xl'
             onClick={() => {
               document
                 .getElementById('planos')

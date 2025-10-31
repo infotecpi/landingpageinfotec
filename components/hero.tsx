@@ -66,15 +66,15 @@ export default function Hero() {
 
             {/* Benefits highlights */}
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 py-4'>
-              <div className='flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-lg p-3'>
+              <div className='flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-2xl p-3'>
                 <Zap className='w-5 h-5 text-yellow-300' />
                 <span className='text-sm font-medium'>Até 800 Mbps</span>
               </div>
-              <div className='flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-lg p-3'>
+              <div className='flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-2xl p-3'>
                 <Shield className='w-5 h-5 text-green-300' />
                 <span className='text-sm font-medium'>Conexão Estável</span>
               </div>
-              <div className='flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-lg p-3'>
+              <div className='flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-2xl p-3'>
                 <Gift className='w-5 h-5 text-[#fc842b]' />
                 <span className='text-sm font-medium'>Instalação Inclusa</span>
               </div>
@@ -83,14 +83,14 @@ export default function Hero() {
             <div className='flex flex-wrap gap-4'>
               <Button
                 size='lg'
-                className='bg-[#fc842b] hover:bg-[#e07525] text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 focus:ring-custom'
+                className='bg-[#fc842b] hover:bg-[#e07525] text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 focus:ring-custom rounded-2xl'
               >
                 <Link href='#planos'>Escolher Meu Plano Ideal</Link>
               </Button>
               <Button
                 size='lg'
                 variant='outline'
-                className='bg-white text-[#0092e5] hover:bg-gray-100 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 focus:ring-custom'
+                className='bg-white text-[#0092e5] hover:bg-gray-100 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 focus:ring-custom rounded-2xl'
               >
                 <Link href='#onde-atendemos'>
                   Consultar Disponibilidade na Minha Região

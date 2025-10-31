@@ -30,7 +30,7 @@ export default function Clients() {
         </div>
 
         <div className='max-w-4xl mx-auto'>
-          <div className='bg-white p-6 rounded-lg shadow-lg'>
+          <div className='bg-white p-6 rounded-2xl shadow-lg'>
             <h3 className='text-xl font-bold mb-6 flex items-center'>
               <Building className='mr-2 text-[#0092e5]' />
               Alguns de nossos clientes

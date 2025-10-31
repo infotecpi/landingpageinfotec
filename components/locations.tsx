@@ -26,7 +26,7 @@ export default function Locations() {
           </p>
         </div>
 
-        <div className='max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden'>
+        <div className='max-w-4xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden'>
           <div className='bg-[#0092e5] p-6'>
             <h3 className='text-xl font-bold text-white flex items-center'>
               <MapPin className='mr-2' /> Nossas Áreas de Cobertura

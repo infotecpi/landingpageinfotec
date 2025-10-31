@@ -72,7 +72,7 @@ export default function FAQ() {
         </div>
 
         <div className='max-w-4xl mx-auto'>
-          <div className='bg-white rounded-lg shadow-lg overflow-hidden'>
+          <div className='bg-white rounded-2xl shadow-lg overflow-hidden'>
             <div className='bg-gradient-to-r from-[#0092e5] to-[#0078bd] p-6'>
               <h3 className='text-xl font-bold text-white'>
                 Dúvidas Mais Comuns
@@ -95,19 +95,19 @@ export default function FAQ() {
           </div>
 
           <div className='mt-8 text-center'>
-            <div className='bg-gradient-to-r from-[#fc842b] to-[#e07525] p-6 rounded-lg text-white'>
+            <div className='bg-gradient-to-r from-[#fc842b] to-[#e07525] p-6 rounded-2xl text-white'>
               <h3 className='text-xl font-bold mb-2'>Ainda tem dúvidas?</h3>
               <p className='mb-4'>Nossa equipe está pronta para ajudar você!</p>
               <div className='flex flex-wrap justify-center gap-4'>
                 <a
                   href='tel:89994578337'
-                  className='bg-white text-[#fc842b] px-6 py-2 rounded-md font-semibold hover:bg-gray-100 transition-colors'
+                  className='bg-white text-[#fc842b] px-6 py-2 rounded-2xl font-semibold hover:bg-gray-100 transition-colors'
                 >
                   Ligar Agora
                 </a>
                 <a
                   href='mailto:cavalcante@infotecpi.com.br'
-                  className='bg-white text-[#fc842b] px-6 py-2 rounded-md font-semibold hover:bg-gray-100 transition-colors'
+                  className='bg-white text-[#fc842b] px-6 py-2 rounded-2xl font-semibold hover:bg-gray-100 transition-colors'
                 >
                   Enviar E-mail
                 </a>

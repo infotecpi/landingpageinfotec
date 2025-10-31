@@ -36,7 +36,7 @@ export default function Downloads() {
         </p>
 
         <div className='grid md:grid-cols-2 gap-8 max-w-4xl mx-auto'>
-          <article className='bg-white rounded-lg shadow-lg p-6 border-t-4 border-[#0092e5]'>
+          <article className='bg-white rounded-2xl shadow-lg p-6 border-t-4 border-[#0092e5]'>
             <h2 className='text-xl font-bold mb-4'>
               Certidão de Registro Contrato de Comodato de Equipamentos
             </h2>
@@ -46,7 +46,7 @@ export default function Downloads() {
             </p>
             <Link
               href='https://drive.google.com/file/d/1Ljuv0AbqRdVB-YRUID1lYOKlGPE_IshG/view'
-              className='flex items-center gap-2 bg-[#0092e5] text-white px-4 py-2 rounded-md hover:bg-[#0078bd] transition-colors'
+              className='flex items-center gap-2 bg-[#0092e5] text-white px-4 py-2 rounded-2xl hover:bg-[#0078bd] transition-colors'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -55,7 +55,7 @@ export default function Downloads() {
             </Link>
           </article>
 
-          <article className='bg-white rounded-lg shadow-lg p-6 border-t-4 border-[#fc842b]'>
+          <article className='bg-white rounded-2xl shadow-lg p-6 border-t-4 border-[#fc842b]'>
             <h2 className='text-xl font-bold mb-4'>
               Certidão de Registro Contrato de Prestação de Serviços de
               Telecomunicações
@@ -66,7 +66,7 @@ export default function Downloads() {
             </p>
             <Link
               href='https://drive.google.com/file/d/1Onp8X90qrQSjriWE_bddOIyEEGgpYHB4/view'
-              className='flex items-center gap-2 bg-[#fc842b] text-white px-4 py-2 rounded-md hover:bg-[#e07525] transition-colors'
+              className='flex items-center gap-2 bg-[#fc842b] text-white px-4 py-2 rounded-2xl hover:bg-[#e07525] transition-colors'
               target='_blank'
               rel='noopener noreferrer'
             >
