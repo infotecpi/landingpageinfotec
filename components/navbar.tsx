@@ -82,6 +82,7 @@ export default function Navbar() {
             <button
               onClick={toggleMenu}
               className='inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-[#0092e5] focus:outline-none'
+              aria-label='Botão MENU para quando o menu na topbar está fechado e X quando o mesmo está aberto. Só aparece em telas pequenas'
             >
               {isMenuOpen ? (
                 <X className='h-6 w-6' />
