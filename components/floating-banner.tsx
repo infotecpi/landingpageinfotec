@@ -19,7 +19,7 @@ export default function FloatingBanner() {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-4 right-4 z-50 max-w-sm animate-bounce">
+    <div className="fixed bottom-4 right-4 z-50 max-w-sm">
       <div className="bg-gradient-to-r from-[#fc842b] to-[#e07525] text-white p-4 rounded-2xl shadow-2xl border-2 border-white relative overflow-hidden">
         {/* Background decoration */}
         <div className="absolute inset-0 opacity-20">
