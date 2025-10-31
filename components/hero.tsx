@@ -90,7 +90,7 @@ export default function Hero() {
               <Button
                 size='lg'
                 variant='outline'
-                className='bg-white text-[#0092e5] hover:bg-gray-100 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 focus:ring-custom rounded-2xl'
+                className='bg-white text-[#0092e5] hover:bg-[#e6f4ff] hover:text-[#0066a8] shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 focus:ring-custom rounded-2xl border-[#0092e5]'
               >
                 <Link href='#onde-atendemos'>
                   Consultar Disponibilidade na Minha Região
