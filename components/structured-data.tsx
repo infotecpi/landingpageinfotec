@@ -10,8 +10,8 @@ export default function StructuredData() {
     description:
       'Provedor de internet fibra óptica com planos rápidos, confiáveis e suporte excepcional em Francisco Ayres, Arraial e região.',
     url: 'https://infotecpi.com.br',
-    logo: 'https://infotecpi.com.br/images/info-tec-networks-logo.png',
-    image: 'https://infotecpi.com.br/images/mascote-infotec.png',
+    logo: 'https://infotecpi.com.br/images/info-tec-networks-logo.webp',
+    image: 'https://infotecpi.com.br/images/mascote-infotec.webp',
     telephone: '+55-89-99457-8337',
     email: 'cavalcante@infotecpi.com.br',
     address: {

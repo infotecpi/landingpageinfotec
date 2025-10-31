@@ -102,7 +102,7 @@ export default function Hero() {
             <div className='relative'>
               <div className='absolute -inset-4 rounded-full bg-white/20 animate-pulse'></div>
               <img
-                src='/images/mascote-infotec.png'
+                src='/images/mascote-infotec.webp'
                 alt='Mascote da INFO-TEC NETWORKS representando velocidade e qualidade da internet fibra óptica em Francisco Ayres, Arraial e região'
                 className='h-64 w-64 object-contain'
                 loading='eager'

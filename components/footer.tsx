@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className='flex items-center mb-4'>
               <img
-                src='/images/info-tec-networks-logo.png'
+                src='/images/info-tec-networks-logo.webp'
                 alt='Logo INFO-TEC NETWORKS - Provedor de Internet'
                 className='h-8 w-auto mr-2'
               />

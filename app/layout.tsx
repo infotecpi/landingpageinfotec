@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: 'INFO-TEC NETWORKS',
     images: [
       {
-        url: '/images/info-tec-networks-og-image.jpg',
+        url: '/images/info-tec-networks-logo.webp',
         width: 1200,
         height: 630,
         alt: 'INFO-TEC NETWORKS - Internet Fibra Óptica Francisco Ayres, Arraial e região',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'INFO-TEC NETWORKS | Internet Fibra Óptica Francisco Ayres, Arraial e região',
     description: 'Internet fibra óptica de alta velocidade em Francisco Ayres, Arraial e região. Planos a partir de R$ 89,99 com instalação gratuita.',
-    images: ['/images/info-tec-networks-og-image.jpg'],
+    images: ['/images/info-tec-networks-logo.webp'],
   },
   robots: {
     index: true,
